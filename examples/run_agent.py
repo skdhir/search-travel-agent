@@ -25,13 +25,13 @@ API_BASE = "https://api.sanatdhir.com"
 AGENT_PROFILES = {
     # Example: keep your existing agent here
     "travel-search": {
-        "agent_id": "agent_f2b86a123f614776a64c12eab8e585d8",
-        "private_key_b64": "vppzQk4oLuHgmHj7_76TsxTwAE6H8OHN0KQQXYYXl0E",
+        "agent_id": "agent_84a3e40c223f4a63b0c156222b546b85",
+        "private_key_b64": "u5qAG9euQXcxcDulst5iC0WH0bBQps0-jgP-6ty1tVM",
     },
 
     "price-monitor": {
-        "agent_id": "agent_a6aee7548a374140981aaaa4fbe757b0",
-        "private_key_b64": "E1--4WIlZ26OL5sEezaIrKPH0RDOamYGCPQG4m3lCtw",
+        "agent_id": "agent_ea9c0f97b8104d9aae185ff4291ddfba",
+        "private_key_b64": "o9Pnr_9Ewl33Yb11HH5dccjKjSOSSNaZOWqPPpojFKE",
     },
 }
 
