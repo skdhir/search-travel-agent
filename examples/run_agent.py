@@ -1,10 +1,14 @@
 # examples/run_agent.py
 # ======= USAGE =====
+
+# Activate your virtualenv if you set one up
+# source .venv/bin/activate
+
 # default agent (first in AGENT_PROFILES)
 # python -m examples.run_agent
 
 # explicitly pick one
-# python -m examples.run_agent --agent sanat-main
+# python -m examples.run_agent --agent price-monitor --origin EWR  --destination FLL 
 
 # second agent
 # python -m examples.run_agent --agent price-monitor
@@ -25,13 +29,13 @@ API_BASE = "https://api.sanatdhir.com"
 AGENT_PROFILES = {
     # Example: keep your existing agent here
     "travel-search": {
-        "agent_id": "agent_84a3e40c223f4a63b0c156222b546b85",
-        "private_key_b64": "u5qAG9euQXcxcDulst5iC0WH0bBQps0-jgP-6ty1tVM",
+        "agent_id": "agent_e5af7046fa544d91a6445499f7430511",
+        "private_key_b64": "3VowD1Ig2r-AQMp_GygkqVRJ1Rx-dNTOP1WPicqRFfY",
     },
 
     "price-monitor": {
-        "agent_id": "agent_ea9c0f97b8104d9aae185ff4291ddfba",
-        "private_key_b64": "o9Pnr_9Ewl33Yb11HH5dccjKjSOSSNaZOWqPPpojFKE",
+        "agent_id": "agent_2100ba72b88845cc84e0b22fdf02a54c",
+        "private_key_b64": "BvnyMx5eK-BS2cW39AoEAnzRFeG0dEV6SO_KjLsVCxg",
     },
 }
 
